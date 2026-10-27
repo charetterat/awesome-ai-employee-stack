@@ -1,208 +1,208 @@
 {
- "_comment": "Single source of truth for awesome-ai-employee-stack. Verified live on 2026-10-09 via GitHub API through HK proxy. Every entry represents an active building block for autonomous digital workforces.",
- "updated": "2026-10-25",
- "layers": [
-  {
-   "layer_name": "Autonomous AI Employee Platforms",
-   "description": "Full-stack frameworks and workspace clients for managing persistent AI team members with specialized roles.",
-   "items": [
+  "_comment": "Single source of truth for awesome-ai-employee-stack. Verified live on 2026-10-09 via GitHub API through HK proxy. Every entry represents an active building block for autonomous digital workforces.",
+  "updated": "2026-10-27",
+  "layers": [
     {
-     "name": "Bops",
-     "repo": "OrgoAI/bops",
-     "url": "https://github.com/OrgoAI/bops",
-     "stars": 216,
-     "deployment": "Mac App / Self-hosted",
-     "license": "FSL-1.1-ALv2",
-     "role": "Team Workspace",
-     "what": "A Mac app where AI bots run business ops. Each bot gets a dedicated Orgo cloud computer (4 screens), AgentMail inbox, and AgentPhone number with human-in-the-loop approval.",
-     "key_capabilities": "Multi-screen cloud desktop, voice/SMS/Email task triggers, Composio app integrations, human-in-the-loop approval gates",
-     "limitations": "Fair Source license; requires Orgo cloud or self-hosted desktop runtime."
+      "layer_name": "Autonomous AI Employee Platforms",
+      "description": "Full-stack frameworks and workspace clients for managing persistent AI team members with specialized roles.",
+      "items": [
+        {
+          "name": "Bops",
+          "repo": "OrgoAI/bops",
+          "url": "https://github.com/OrgoAI/bops",
+          "stars": 216,
+          "deployment": "Mac App / Self-hosted",
+          "license": "FSL-1.1-ALv2",
+          "role": "Team Workspace",
+          "what": "A Mac app where AI bots run business ops. Each bot gets a dedicated Orgo cloud computer (4 screens), AgentMail inbox, and AgentPhone number with human-in-the-loop approval.",
+          "key_capabilities": "Multi-screen cloud desktop, voice/SMS/Email task triggers, Composio app integrations, human-in-the-loop approval gates",
+          "limitations": "Fair Source license; requires Orgo cloud or self-hosted desktop runtime."
+        },
+        {
+          "name": "OpenCompany",
+          "repo": "zeenie-ai/OpenCompany",
+          "url": "https://github.com/zeenie-ai/OpenCompany",
+          "stars": 986,
+          "deployment": "Self-hosted / Python",
+          "license": "MIT",
+          "role": "Self-improving AI Workforce",
+          "what": "Self-improving AI employees that execute multi-step business goals, turn LLM tokens into structured outputs, and track ROI.",
+          "key_capabilities": "Self-evaluating task loops, structured output generation, token ROI tracking",
+          "limitations": "Requires manual LLM provider key configuration."
+        },
+        {
+          "name": "CrewMeld",
+          "repo": "proinsight-io/crewmeld",
+          "url": "https://github.com/proinsight-io/crewmeld",
+          "stars": 964,
+          "deployment": "Enterprise Self-hosted",
+          "license": "Proprietary / Source-available",
+          "role": "Digital Workforce Platform",
+          "what": "Enterprise digital workforce platform to manage AI employees like real team members with visual SOP orchestration.",
+          "key_capabilities": "Visual SOP flowchart builder, team member role assignment, enterprise access control",
+          "limitations": "Commercial source-available terms."
+        },
+        {
+          "name": "Zero Employee Company",
+          "repo": "AnthonyDavidAdams/zero-employee-company-book",
+          "url": "https://github.com/AnthonyDavidAdams/zero-employee-company-book",
+          "stars": 721,
+          "deployment": "Open Spec & Blueprint",
+          "license": "CC0",
+          "role": "Paperclip Architecture",
+          "what": "Blueprint and code patterns for running a zero-headcount company driven entirely by Paperclip agent harnesses.",
+          "key_capabilities": "Headcount zero architecture, automated budget allocation, agent governance patterns",
+          "limitations": "Architectural guide and blueprint rather than a turn-key binary."
+        }
+      ]
     },
     {
-     "name": "OpenCompany",
-     "repo": "zeenie-ai/OpenCompany",
-     "url": "https://github.com/zeenie-ai/OpenCompany",
-     "stars": 986,
-     "deployment": "Self-hosted / Python",
-     "license": "MIT",
-     "role": "Self-improving AI Workforce",
-     "what": "Self-improving AI employees that execute multi-step business goals, turn LLM tokens into structured outputs, and track ROI.",
-     "key_capabilities": "Self-evaluating task loops, structured output generation, token ROI tracking",
-     "limitations": "Requires manual LLM provider key configuration."
+      "layer_name": "Desktop & Execution Sandboxes (Computer Use)",
+      "description": "Secure environments giving AI agents mouse, keyboard, and display access to drive desktop software.",
+      "items": [
+        {
+          "name": "Agent Desktop",
+          "repo": "lahfir/agent-desktop",
+          "url": "https://github.com/lahfir/agent-desktop",
+          "stars": 1779,
+          "deployment": "Rust Native Binary",
+          "license": "Apache-2.0",
+          "role": "Native UI Access",
+          "what": "Gives any AI agent reliable computer use by inspecting real UI tree structures instead of raw screenshot guessing.",
+          "key_capabilities": "Accessibility tree navigation, native Rust performance, low latency desktop automation",
+          "limitations": "Requires OS accessibility permissions."
+        },
+        {
+          "name": "Hermes Desktop OS1",
+          "repo": "nickvasilescu/hermes-desktop-os1",
+          "url": "https://github.com/nickvasilescu/hermes-desktop-os1",
+          "stars": 529,
+          "deployment": "macOS Native",
+          "license": "MIT",
+          "role": "Cloud Computer Workspace",
+          "what": "Native macOS workspace for Hermes Agent on Orgo cloud computers and remote SSH hosts.",
+          "key_capabilities": "Orgo cloud instance lifecycle, multi-screen remote viewing, SSH host binding",
+          "limitations": "Targeted specifically at macOS client systems."
+        },
+        {
+          "name": "Computer Agent",
+          "repo": "suitedaces/computer-agent",
+          "url": "https://github.com/suitedaces/computer-agent",
+          "stars": 702,
+          "deployment": "Desktop App",
+          "license": "MIT",
+          "role": "Local OS Control",
+          "what": "Desktop app to control your computer with AI via terminal, browser, mouse, and keyboard.",
+          "key_capabilities": "Cross-platform desktop control, local model support, interactive execution overlay",
+          "limitations": "Runs with local user account privileges."
+        },
+        {
+          "name": "Korgo Bot",
+          "repo": "nickvasilescu/korgo-bot",
+          "url": "https://github.com/nickvasilescu/korgo-bot",
+          "stars": 38,
+          "deployment": "Node.js / Cloud",
+          "license": "MIT",
+          "role": "Persistent Orgo Worker",
+          "what": "Persistent AI bots with built-in Orgo cloud computer use for background long-horizon tasks.",
+          "key_capabilities": "Headless cloud desktop execution, persistent background polling",
+          "limitations": "Requires an active Orgo API account."
+        }
+      ]
     },
     {
-     "name": "CrewMeld",
-     "repo": "proinsight-io/crewmeld",
-     "url": "https://github.com/proinsight-io/crewmeld",
-     "stars": 964,
-     "deployment": "Enterprise Self-hosted",
-     "license": "Proprietary / Source-available",
-     "role": "Digital Workforce Platform",
-     "what": "Enterprise digital workforce platform to manage AI employees like real team members with visual SOP orchestration.",
-     "key_capabilities": "Visual SOP flowchart builder, team member role assignment, enterprise access control",
-     "limitations": "Commercial source-available terms."
-    },
-    {
-     "name": "Zero Employee Company",
-     "repo": "AnthonyDavidAdams/zero-employee-company-book",
-     "url": "https://github.com/AnthonyDavidAdams/zero-employee-company-book",
-     "stars": 721,
-     "deployment": "Open Spec & Blueprint",
-     "license": "CC0",
-     "role": "Paperclip Architecture",
-     "what": "Blueprint and code patterns for running a zero-headcount company driven entirely by Paperclip agent harnesses.",
-     "key_capabilities": "Headcount zero architecture, automated budget allocation, agent governance patterns",
-     "limitations": "Architectural guide and blueprint rather than a turn-key binary."
+      "layer_name": "Communication, Identity & Integrations",
+      "description": "Gateways giving AI bots dedicated email inboxes, phone numbers, and app connections.",
+      "items": [
+        {
+          "name": "Composio",
+          "repo": "ComposioHQ/composio",
+          "url": "https://github.com/ComposioHQ/composio",
+          "stars": 30474,
+          "deployment": "Python / TypeScript SDK",
+          "license": "MIT",
+          "role": "1000+ App Integrations",
+          "what": "Powers 1000+ toolkits, auth management, and sandboxed workbenches for GitHub, Gmail, Slack, HubSpot, and Notion.",
+          "key_capabilities": "OAuth token management, fine-grained tool permissions, multi-account support per bot",
+          "limitations": "Requires Composio API key or self-hosted proxy."
+        },
+        {
+          "name": "AgentPhone MCP",
+          "repo": "AgentPhone-AI/agentphone-mcp",
+          "url": "https://github.com/AgentPhone-AI/agentphone-mcp",
+          "stars": 125,
+          "deployment": "MCP Server / Node.js",
+          "license": "MIT",
+          "role": "Voice & SMS Gateway",
+          "what": "MCP server giving Claude Code and AI agents dedicated phone numbers for SMS, voice calls, and real-time SIP interaction.",
+          "key_capabilities": "Real-time voice streaming, SMS notification webhooks, call transcript generation",
+          "limitations": "Requires Twilio or SIP provider routing."
+        },
+        {
+          "name": "AgentMail Toolkit",
+          "repo": "agentmail-to/agentmail-toolkit",
+          "url": "https://github.com/agentmail-to/agentmail-toolkit",
+          "stars": 108,
+          "deployment": "Python / CLI",
+          "license": "MIT",
+          "role": "Dedicated Agent Inbox",
+          "what": "Gives each AI bot an isolated email inbox to send, receive, and process inbound email tasks asynchronously.",
+          "key_capabilities": "Inbound email webhooks, thread-aware context parsing, outbound approval hooks",
+          "limitations": "Requires domain DNS MX record configuration for custom domains."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "layer_name": "Desktop & Execution Sandboxes (Computer Use)",
-   "description": "Secure environments giving AI agents mouse, keyboard, and display access to drive desktop software.",
-   "items": [
+  ],
+  "verification_sources": [
     {
-     "name": "Agent Desktop",
-     "repo": "lahfir/agent-desktop",
-     "url": "https://github.com/lahfir/agent-desktop",
-     "stars": 1779,
-     "deployment": "Rust Native Binary",
-     "license": "Apache-2.0",
-     "role": "Native UI Access",
-     "what": "Gives any AI agent reliable computer use by inspecting real UI tree structures instead of raw screenshot guessing.",
-     "key_capabilities": "Accessibility tree navigation, native Rust performance, low latency desktop automation",
-     "limitations": "Requires OS accessibility permissions."
+      "name": "bops repo",
+      "url": "https://github.com/OrgoAI/bops",
+      "expected_token": "bops"
     },
     {
-     "name": "Hermes Desktop OS1",
-     "repo": "nickvasilescu/hermes-desktop-os1",
-     "url": "https://github.com/nickvasilescu/hermes-desktop-os1",
-     "stars": 529,
-     "deployment": "macOS Native",
-     "license": "MIT",
-     "role": "Cloud Computer Workspace",
-     "what": "Native macOS workspace for Hermes Agent on Orgo cloud computers and remote SSH hosts.",
-     "key_capabilities": "Orgo cloud instance lifecycle, multi-screen remote viewing, SSH host binding",
-     "limitations": "Targeted specifically at macOS client systems."
+      "name": "OpenCompany repo",
+      "url": "https://github.com/zeenie-ai/OpenCompany",
+      "expected_token": "OpenCompany"
     },
     {
-     "name": "Computer Agent",
-     "repo": "suitedaces/computer-agent",
-     "url": "https://github.com/suitedaces/computer-agent",
-     "stars": 702,
-     "deployment": "Desktop App",
-     "license": "MIT",
-     "role": "Local OS Control",
-     "what": "Desktop app to control your computer with AI via terminal, browser, mouse, and keyboard.",
-     "key_capabilities": "Cross-platform desktop control, local model support, interactive execution overlay",
-     "limitations": "Runs with local user account privileges."
+      "name": "crewmeld repo",
+      "url": "https://github.com/proinsight-io/crewmeld",
+      "expected_token": "CrewMeld"
     },
     {
-     "name": "Korgo Bot",
-     "repo": "nickvasilescu/korgo-bot",
-     "url": "https://github.com/nickvasilescu/korgo-bot",
-     "stars": 38,
-     "deployment": "Node.js / Cloud",
-     "license": "MIT",
-     "role": "Persistent Orgo Worker",
-     "what": "Persistent AI bots with built-in Orgo cloud computer use for background long-horizon tasks.",
-     "key_capabilities": "Headless cloud desktop execution, persistent background polling",
-     "limitations": "Requires an active Orgo API account."
+      "name": "zero-employee-company repo",
+      "url": "https://github.com/AnthonyDavidAdams/zero-employee-company-book",
+      "expected_token": "Paperclip"
+    },
+    {
+      "name": "agent-desktop repo",
+      "url": "https://github.com/lahfir/agent-desktop",
+      "expected_token": "desktop"
+    },
+    {
+      "name": "hermes-desktop-os1 repo",
+      "url": "https://github.com/nickvasilescu/hermes-desktop-os1",
+      "expected_token": "Hermes"
+    },
+    {
+      "name": "computer-agent repo",
+      "url": "https://github.com/suitedaces/computer-agent",
+      "expected_token": "computer"
+    },
+    {
+      "name": "korgo-bot repo",
+      "url": "https://github.com/nickvasilescu/korgo-bot",
+      "expected_token": "Korgo"
+    },
+    {
+      "name": "composio repo",
+      "url": "https://github.com/ComposioHQ/composio",
+      "expected_token": "Composio"
+    },
+    {
+      "name": "agentphone-mcp repo",
+      "url": "https://github.com/AgentPhone-AI/agentphone-mcp",
+      "expected_token": "AgentPhone"
     }
-   ]
-  },
-  {
-   "layer_name": "Communication, Identity & Integrations",
-   "description": "Gateways giving AI bots dedicated email inboxes, phone numbers, and app connections.",
-   "items": [
-    {
-     "name": "Composio",
-     "repo": "ComposioHQ/composio",
-     "url": "https://github.com/ComposioHQ/composio",
-     "stars": 30474,
-     "deployment": "Python / TypeScript SDK",
-     "license": "MIT",
-     "role": "1000+ App Integrations",
-     "what": "Powers 1000+ toolkits, auth management, and sandboxed workbenches for GitHub, Gmail, Slack, HubSpot, and Notion.",
-     "key_capabilities": "OAuth token management, fine-grained tool permissions, multi-account support per bot",
-     "limitations": "Requires Composio API key or self-hosted proxy."
-    },
-    {
-     "name": "AgentPhone MCP",
-     "repo": "AgentPhone-AI/agentphone-mcp",
-     "url": "https://github.com/AgentPhone-AI/agentphone-mcp",
-     "stars": 125,
-     "deployment": "MCP Server / Node.js",
-     "license": "MIT",
-     "role": "Voice & SMS Gateway",
-     "what": "MCP server giving Claude Code and AI agents dedicated phone numbers for SMS, voice calls, and real-time SIP interaction.",
-     "key_capabilities": "Real-time voice streaming, SMS notification webhooks, call transcript generation",
-     "limitations": "Requires Twilio or SIP provider routing."
-    },
-    {
-     "name": "AgentMail Toolkit",
-     "repo": "agentmail-to/agentmail-toolkit",
-     "url": "https://github.com/agentmail-to/agentmail-toolkit",
-     "stars": 108,
-     "deployment": "Python / CLI",
-     "license": "MIT",
-     "role": "Dedicated Agent Inbox",
-     "what": "Gives each AI bot an isolated email inbox to send, receive, and process inbound email tasks asynchronously.",
-     "key_capabilities": "Inbound email webhooks, thread-aware context parsing, outbound approval hooks",
-     "limitations": "Requires domain DNS MX record configuration for custom domains."
-    }
-   ]
-  }
- ],
- "verification_sources": [
-  {
-   "name": "bops repo",
-   "url": "https://github.com/OrgoAI/bops",
-   "expected_token": "bops"
-  },
-  {
-   "name": "OpenCompany repo",
-   "url": "https://github.com/zeenie-ai/OpenCompany",
-   "expected_token": "OpenCompany"
-  },
-  {
-   "name": "crewmeld repo",
-   "url": "https://github.com/proinsight-io/crewmeld",
-   "expected_token": "CrewMeld"
-  },
-  {
-   "name": "zero-employee-company repo",
-   "url": "https://github.com/AnthonyDavidAdams/zero-employee-company-book",
-   "expected_token": "Paperclip"
-  },
-  {
-   "name": "agent-desktop repo",
-   "url": "https://github.com/lahfir/agent-desktop",
-   "expected_token": "desktop"
-  },
-  {
-   "name": "hermes-desktop-os1 repo",
-   "url": "https://github.com/nickvasilescu/hermes-desktop-os1",
-   "expected_token": "Hermes"
-  },
-  {
-   "name": "computer-agent repo",
-   "url": "https://github.com/suitedaces/computer-agent",
-   "expected_token": "computer"
-  },
-  {
-   "name": "korgo-bot repo",
-   "url": "https://github.com/nickvasilescu/korgo-bot",
-   "expected_token": "Korgo"
-  },
-  {
-   "name": "composio repo",
-   "url": "https://github.com/ComposioHQ/composio",
-   "expected_token": "Composio"
-  },
-  {
-   "name": "agentphone-mcp repo",
-   "url": "https://github.com/AgentPhone-AI/agentphone-mcp",
-   "expected_token": "AgentPhone"
-  }
- ]
+  ]
 }
